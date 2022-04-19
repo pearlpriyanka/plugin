@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.1" type="plugin" group="system">
+    <name>Headline Plugin</name>
+    <author>Pearl</author>
+    <creationDate>April 19th</creationDate>
+    <authorEmail>pearlpriyanka15@gmail.com</authorEmail>
+    <version>1.0</version>
+    <description>A healdine plugin </description>
+    <files>
+        <filename plugin="headline">headline.php</filename>
+        <filename>index.html</filename>
+        <filename>headline.js</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="headlineText" type="text" label="Enter the text you want to display" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
