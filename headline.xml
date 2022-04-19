@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.0" type="plugin" group="system" method="upgrade">
+	<name>headline</name>
+	<author>Pearl</author>
+	<creationDate>April 18th</creationDate>
+	<authorEmail>pearlpriyanka15@gmail.com</authorEmail>
+	<version>1.0.0</version>
+	<description>headlineplugin</description>
+	<files>
+		<filename plugin="headingplugins">headline.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">administrator\language\en-GB\en-GB.en-GB.plg_system_headline.ini</language>
+		<language tag="en-GB">administrator\language\en-GB\en-GB.plg_system_headline.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" label="Input field">
+				<field name="Input" type="text" folder="editor" default="Hello"/>
+			</fieldset>
+			
+		</fields>
+	</config>
+</extension>
